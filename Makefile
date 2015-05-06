@@ -3,6 +3,7 @@ private_key=${HOME}/.vagrant.d/insecure_private_key
 
 init:
 	vagrant up
+	gem install bundler
 
 install:
 	bundler install
